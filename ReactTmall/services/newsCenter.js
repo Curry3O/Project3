@@ -5,8 +5,8 @@ export async function queryNews(param) {
     params: param,
     headers: {
       'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'
-    },
-  })
+    }
+  });
 }
 export async function deleteNews(param) {
   return request('/api/notice/deleteById', {
@@ -14,8 +14,8 @@ export async function deleteNews(param) {
     params: param,
     headers: {
       'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'
-    },
-  })
+    }
+  });
 }
 export async function addNews(param) {
   return request('/api/notice/saveOrUpdate', {
@@ -23,8 +23,8 @@ export async function addNews(param) {
     params: param,
     headers: {
       'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'
-    },
-  })
+    }
+  });
 }
 export async function changeStatus(param) {
   return request('/api/notice/changeStatus', {
@@ -32,6 +32,8 @@ export async function changeStatus(param) {
     params: param,
     headers: {
       'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'
-    },
-  })
+    }
+  });
 }
+
+// test4
