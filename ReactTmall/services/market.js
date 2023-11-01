@@ -5,8 +5,8 @@ export async function queryMarket(param) {
     params: param,
     headers: {
       'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'
-    },
-  })
+    }
+  });
 }
 export async function changeStatus(param) {
   return request('/api/user/changeEnabled', {
@@ -14,8 +14,8 @@ export async function changeStatus(param) {
     params: param,
     headers: {
       'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'
-    },
-  })
+    }
+  });
 }
 export async function addMarket(param) {
   return request('/api/notice/saveOrUpdate', {
@@ -23,6 +23,8 @@ export async function addMarket(param) {
     params: param,
     headers: {
       'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'
-    },
-  })
+    }
+  });
 }
+
+// test5
