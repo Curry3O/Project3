@@ -5,7 +5,8 @@ export async function queryLogs(param) {
     params: param,
     headers: {
       'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'
-    },
-  })
+    }
+  });
 }
 
+// test 6
